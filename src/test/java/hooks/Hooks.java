@@ -12,8 +12,8 @@ public class Hooks {
 
     @Before
     public void setUp() {
-        driver = Driver.createWebDriver(); // Memanggil util Driver
-        driver.manage().window().maximize(); // Maksimalkan jendela browser
+        driver = Driver.createWebDriver(); 
+        driver.manage().window().maximize(); 
         System.out.println("🟢 Browser siap digunakan sebelum scenario");
     }
 
